@@ -4,12 +4,11 @@
  */
 package com.avs.mockito;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author Elias
  */
-interface DAO {
-    public ArrayList<Usuario> getUsuarios();  
+interface Usuario {
+    public int getEdad();
+    public void setEdad(int _edad);
 }
