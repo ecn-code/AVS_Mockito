@@ -6,8 +6,11 @@ package com.avs.mockito;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    private DAO dao;
+    public App(DAO _dao){
+    dao = _dao;
+    }
+    public boolean getInfo(){
+    return dao.getA();
     }
 }
