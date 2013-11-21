@@ -8,7 +8,7 @@ package com.avs.mockito;
  *
  * @author Elias
  */
+
 interface Usuario {
     public int getEdad();
-    public void setEdad(int _edad);
 }
